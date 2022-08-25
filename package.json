@@ -1,5 +1,5 @@
 {
-		"name": "Template Engine",
+		"name": "template-engine",
 		"version": "0.1.0",
 		"description": "SASS compile|autoprefix|minimize and live-reload dev server using Browsersync for static HTML",
 		"main": "public/index.html",
