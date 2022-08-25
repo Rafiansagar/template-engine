@@ -1,9 +1,9 @@
 {
-		"name": "project",
+		"name": "Template Engine",
 		"version": "0.1.0",
 		"description": "SASS compile|autoprefix|minimize and live-reload dev server using Browsersync for static HTML",
 		"main": "public/index.html",
-		"author": "5t3ph",
+		"author": "st-theme",
 		"scripts": {
 				"build:sass": "sass  --no-source-map src/sass:public/css",
 				"copy:assets": "copyfiles -u 1 ./src/assets/**/* public",
@@ -20,7 +20,6 @@
 		},
 		"dependencies": {
 				"autoprefixer": "^10.4.2",
-				"bootstrap": "^5.2.0",
 				"browser-sync": "^2.27.7",
 				"copyfiles": "^2.4.1",
 				"cssnano": "^5.0.17",
