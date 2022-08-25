@@ -1,0 +1,49 @@
+body {
+    height: 100vh;
+    .hero-sec {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        .grid-maker {
+            display: flex;
+            position: relative;
+            .cmn {
+                height: 500px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                color: #fff;
+                font-size: 30px;
+                font-weight: 700;
+                font-family: $titleFont;
+                &.scss {
+                    background: $secondaryColor;
+                }
+                &.css {
+                    background: $primaryColor;
+                }
+            }
+        }
+        .to {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(90deg, $primaryColor 50%, $secondaryColor 50%);
+            border-radius: 50%;
+            color: $whiteColor;
+            font-size: 22px;
+            text-shadow: 3px 5px 15px #000;
+            font-family: $titleFont;
+            font-weight: 700;
+        }
+    }
+}

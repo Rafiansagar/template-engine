@@ -1,0 +1,239 @@
+
+/* 1. Theme default fonts */
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800');
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800,900');
+
+html,
+body {
+    font-size: 15px;
+    color: $bodyColor;
+    font-family: $bodyFont;
+    vertical-align: baseline;
+    line-height: 26px;
+    font-weight: 400;
+    overflow-x: hidden;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+p {
+    margin: 0 0 26px;
+    line-height: 1.8;
+} 
+
+button,
+input,
+a {
+	&:active,
+	&:focus {
+		outline: none;
+	}
+}
+a {
+    color: $primaryColor;
+    transition: $transition;
+    text-decoration: none !important;
+    outline: none !important;
+}
+a:active,
+a:hover {
+    text-decoration: none;
+    outline: 0 none;
+    color: $primaryColor;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $titleFont;
+    color: $titleColor;
+    margin: 0 0 26px;
+    line-height: 1.2;
+}
+h1 {
+    font-size: 70px;
+    font-weight: 700;
+}
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+h3 {
+    font-size: 26px;
+    font-weight: 700;
+}
+h4 {
+    font-size: 24px;
+    font-weight: 700;
+}
+h5 {
+    font-size: 18px;
+    font-weight: 700;
+}
+h6 {
+    font-size: 16px;
+    font-weight: 700;
+}
+.uppercase{
+    text-transform: uppercase !important;
+}
+.capitalize{
+    text-transform: capitalize !important;
+}
+.bold-text {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: $titleFont;
+}
+.extra-bold {
+    font-weight: 800 !important;
+}
+.z-index-1 {
+    z-index: 1;
+    position: relative;
+}
+.text-right {
+    text-align: right;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+/*--
+    - Text color
+-----------------------------------------*/
+.white-color {
+	color: $whiteColor !important;
+}
+.primary-color {
+	color: $primaryColor !important;
+}
+.secondary-color {
+	color: $secondaryColor !important;
+}
+
+/*--
+    - Background color
+-----------------------------------------*/
+.gray-bg {
+	background: $graybg;
+}
+.white-bg {
+	background: $whiteColor;
+}
+.primary-bg {
+	background: $primaryColor;
+}
+.secondary-bg {
+	background: $secondaryColor;
+}
+.black-bg {
+    background: #000000;
+}
+
+/*--
+    - Common Classes
+-----------------------------------------*/
+.fix {
+    overflow:hidden
+}
+.clear{
+    clear: both;
+}
+.f-left {
+	float: left
+}
+.f-right {
+	float: right
+}
+.no-border {
+	border: none;
+}
+.no-shadow {
+	box-shadow: none;
+	text-shadow: none;
+}
+.no-padding {
+	padding: 0;
+}
+.padding-0 {
+	padding: 0;
+}
+.no-margin {
+	margin: 0;
+}
+.margin-0 {
+	margin: 0;
+}
+.no-gutter {
+	margin-left: 0;
+    margin-right: 0;
+    > [class*="col-"] {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+.gutter-30 {
+	margin-left: -15px;
+    margin-right: -15px;
+    > [class*="col-"] {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+.gutter-35 {
+	margin-left: -17.5px;
+    margin-right: -17.5px;
+    > [class*="col-"] {
+        padding-left: 17.5px;
+        padding-right: 17.5px;
+    }
+}
+.container-fluid {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+.capitalize {
+	text-transform: capitalize;
+}
+.relative {
+    position: relative;
+}
+.zIndex {
+    position: relative;
+    z-index: 9;
+}
+.zIndex1 {
+    position: relative;
+    z-index: 1;
+}
+.y-middle {
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+.y-bottom {
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-ms-flex-align: flex-end;
+	-webkit-align-items: flex-end;
+	align-items: flex-end;
+}
