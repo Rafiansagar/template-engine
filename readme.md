@@ -6,7 +6,7 @@ To run the template:
 ```
 npm install
 npm start
-npm buil
+npm build
 ```
 
 ```
