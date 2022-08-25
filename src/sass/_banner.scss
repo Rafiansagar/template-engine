@@ -1,5 +1,6 @@
 body {
     height: 100vh;
+    background: linear-gradient(90deg, $primaryColor 50%, $secondaryColor 50%);
     .hero-sec {
         position: absolute;
         left: 50%;
